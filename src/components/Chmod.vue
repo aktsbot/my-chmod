@@ -34,8 +34,8 @@ export default {
 <style scoped>
 .num {
   font-weight: bold;
-  border: 1px solid #ddd;
-  padding: 3px;
+  border: 1px solid #aaa;
+  padding: 5px;
 }
 
 </style>

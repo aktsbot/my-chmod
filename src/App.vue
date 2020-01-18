@@ -2,7 +2,7 @@
   <div id="app">
     <Chmod v-on:bit-change="generateFlags"/>
     <Ls :flags="flags"/>
-    <p>$ </p>
+    <p>$ _</p>
   </div>
 </template>
 
@@ -52,11 +52,7 @@ export default {
 
 <style>
 #app {
-  font-family: monospace;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: left;
-  color: #2c3e50;
   margin-top: 60px;
   font-size: 18px;
 }
