@@ -1,29 +1,14 @@
-# my-chmod
+# My chmod
 
-## Project setup
-```
-npm install
-```
+- A silly app to get the permission bits of a `chmod` command.
+- Need a [demo?](https://projects.aktsbot.in/my-chmod/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![mychmod demo](https://www.aktsbot.in/files/mychmod_demo.gif)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Steps
 
-### Run your tests
-```
-npm run test
-```
+- Install Node.js
+- Clone the repo and run `npm install`
+- Then `npm run serve`
+- Finally visit http://localhost:8080
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
